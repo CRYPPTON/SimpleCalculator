@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <div id="title">
+        <h1>CALCULATOR</h1>
+    </div>
+    
+    <div id="mainFrame">
+        <div id="navigator">  
+            <button class="navBtn" id="">==</button>
+            <button class="navBtn" id="">App</button>
+            <button class="navBtn" id="">$</button>
+            <button class="navBtn"  id="logo">®CRYPTON</button>
+        </div>
+           
+        <div id="calcDisp">
+           
+           <p class="parOut" id="out"></p>
+           <p class="parOut" id=""></p>
+           <p class="parOut" id=""></p>
+           <p class="parOut" id="input"></p>
+        </div>
+        <div id="operationButton">      
+            <button class="btn" id="">2nd</button>
+            <button class="btn" id="">e</button>
+            <button class="btn" id="" onclick="pi_()">PI</button>
+            <button class="btn" id="" onclick="inv()">1/x</button>
+            <button class="btn" id="" onclick="fact_()">X!</button>
+            <button class="btn" id="" onclick="sqrt_()">√x</button>
+            <button class="btn" id="" onclick="pow_()">x**2</button>
+            <button class="btn" id="ac" onclick="delete_all()">AC</button>
+            <button class="btn" id="" onclick="delete_last()" >del</button>
+            <button class="btn" id=""  onclick="bracket_o()">(</button>
+            <button class="btn" id=""  onclick="bracket_c()">)</button>
+            <button class="btn" onclick="division()" id="">/</button> 
+            <button class="btn" onclick = "sin_()" id="">sin</button>
+            <button class="btn" id="" onclick="cos_()" >cos</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="7">7</button>       
+            <button class="b" onclick="numb(this.innerHTML)" id="8">8</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="9">9</button>  
+            <button class="btn" id="" onclick="multip()">X</button>   
+            <button class="btn" id="" onclick="tan_()">tan</button>
+            <button class="btn" id="">lg</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="4">4</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="5">5</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="6">6</button>
+            <button class="btn" id="" onclick="subtr()" >-</button>         
+            <button class="btn" >deg</button>
+            <button class="btn" id="">in</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="1">1</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="2">2</button> 
+            <button class="b" onclick="numb(this.innerHTML)" id="3">3</button> 
+            <button class="btn" onclick="add()" id="">+</button>    
+            <button class="btn" id="" onclick="perc_()">%</button>
+            <button class="btn" >...</button>
+            <button class="btn" id="">...</button>
+            <button class="b" onclick="numb(this.innerHTML)" id="b">0</button>
+            <button class="btn"  onclick="coma()"  id="">,</button>
+            <button class="btn" onclick="result()" id="eq">=</button>
+        </div>
+    </div>
+    <script src="js/calc.js"></script>
+
+</body>
+</html>
+
+
+
+
+

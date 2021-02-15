@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(14, 1, 1), rgb(14, 14, 13));
+    color : white
+}
+/*<div id="navigator"></div>
+        <div id="calcDisp"></div>
+        id="primarBtn"
+        */
+#title{
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mainFrame{
+    margin: auto;
+    height: 680px;
+    width: 440px;
+    border: solid white 6px;
+    border-radius: 25px;
+}
+
+#navigator{
+    background-color: black;
+    height: 72px;
+    width: 425px;
+    border: solid black 2px;
+    border-radius: 25px;
+}
+
+#calcDisp{
+    height: 170px;
+    width: 436px;
+    border: solid white 3px;
+}
+
+#operationButton{
+    border-radius: 15px;
+    background : black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+     grid-template-columns: repeat(6, 70px);
+     grid-template-rows: minmax(20px,auto) ;
+}
+
+
+.btn{
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 138, 4);
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 70px;
+    width: 70px;
+    border: solid black 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #181818;
+    box-shadow: 0 16px 16px 0 rgba(20, 20, 20, 0.849),0 17px 50px 0 rgb(12, 12, 11);
+}
+
+.b{
+    
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 138, 4);
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 70px;
+    width: 70px;
+    border: solid black 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color:white
+}
+
+.b:hover {
+    background-color: #181818;
+    box-shadow: 0 16px 16px 0 rgba(20, 20, 20, 0.849),0 17px 50px 0 rgb(12, 12, 11);
+}
+
+#eq{
+    background-color: rgb(255, 138, 4);
+    color: white;
+}
+
+
+.navBtn{
+    float: right;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 138, 4);
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 70px;
+    width: 70px;
+    border: solid black 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#logo{
+    width: 120px;
+    color :rgb(255, 251, 0);
+    float: left;
+    font-size: 18px;
+    border: rgb(255, 138, 4) solid 2px;
+    box-shadow: 0 16px 16px 0 rgba(20, 20, 20, 0.849),0 17px 50px 0 rgb(12, 12, 11);
+    background : linear-gradient(to right, rgb(14, 2, 2), rgb(112, 60, 0));
+}
+
+.parOut{
+    margin: auto;
+    text-align-last: right;
+    font-family: fantasy;
+    height: 40px;
+    width: 435px;
+    border: solid red 1px;
+    font-size: 36px;
+}
